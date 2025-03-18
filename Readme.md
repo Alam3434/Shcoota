@@ -1,6 +1,3 @@
-# Creating the README.md file content for the Shcoota app
-
-readme_content = """
 # Shcoota - Scooter Sharing App
 
 **Shcoota** is an iOS app that allows users to share and rent electric scooters, similar to Turo but for scooters. With Shcoota, users can list their scooters for rent, search for nearby scooters, make bookings, and communicate with other users. The app is built using Swift for the frontend and Firebase for the backend to ensure a smooth, real-time experience.
