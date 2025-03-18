@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76B3E1AC2D2C800E00DFFA4E /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1AB2D2C800E00DFFA4E /* RegisterViewModel.swift */; };
+		76B3E1AF2D2C805B00DFFA4E /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1AE2D2C805B00DFFA4E /* Users.swift */; };
+		76B3E1B22D2C80D400DFFA4E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1B12D2C80D300DFFA4E /* Extensions.swift */; };
+		76B3E1B42D2C81E800DFFA4E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1B32D2C81E700DFFA4E /* MainViewModel.swift */; };
+		76B3E1B82D2C82BA00DFFA4E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1B72D2C82BA00DFFA4E /* MapView.swift */; };
+		76B3E1BA2D2C82E800DFFA4E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1B92D2C82E800DFFA4E /* LocationManager.swift */; };
+		76B3E1BF2D2C9A1A00DFFA4E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1BE2D2C9A1A00DFFA4E /* ProfileView.swift */; };
+		76B3E1C12D2C9A3E00DFFA4E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B3E1C02D2C9A3E00DFFA4E /* ProfileViewModel.swift */; };
+		76B3E1C42D2CA2CF00DFFA4E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 76B3E1C32D2CA2CF00DFFA4E /* FirebaseAnalytics */; };
+		76B3E1C62D2CA33100DFFA4E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 76B3E1C52D2CA33100DFFA4E /* FirebaseStorage */; };
 		76F0C5A32CDB1AE300697ECF /* ShcootaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5A22CDB1AE300697ECF /* ShcootaApp.swift */; };
-		76F0C5A52CDB1AE300697ECF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5A42CDB1AE300697ECF /* ContentView.swift */; };
+		76F0C5A52CDB1AE300697ECF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5A42CDB1AE300697ECF /* MainView.swift */; };
 		76F0C5A72CDB1AE500697ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F0C5A62CDB1AE500697ECF /* Assets.xcassets */; };
 		76F0C5AA2CDB1AE500697ECF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F0C5A92CDB1AE500697ECF /* Preview Assets.xcassets */; };
+		76F0C5B12CDBA08000697ECF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5B02CDBA08000697ECF /* LoginView.swift */; };
+		76F0C5B32CDBA0F500697ECF /* TLButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5B22CDBA0F500697ECF /* TLButtonView.swift */; };
+		76F0C5B62CDBA2CF00697ECF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 76F0C5B52CDBA2CF00697ECF /* FirebaseAuth */; };
+		76F0C5B82CDBA2CF00697ECF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 76F0C5B72CDBA2CF00697ECF /* FirebaseFirestore */; };
+		76F0C5BA2CDBA3C300697ECF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76F0C5B92CDBA3C300697ECF /* GoogleService-Info.plist */; };
+		76F0C5BC2CDBA49A00697ECF /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5BB2CDBA49A00697ECF /* HeaderView.swift */; };
+		76F0C5BE2CDBA4A700697ECF /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5BD2CDBA4A700697ECF /* RegisterView.swift */; };
+		76F0C5C02CDBA4FC00697ECF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0C5BF2CDBA4FB00697ECF /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76B3E1AB2D2C800E00DFFA4E /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		76B3E1AE2D2C805B00DFFA4E /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		76B3E1B12D2C80D300DFFA4E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		76B3E1B32D2C81E700DFFA4E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		76B3E1B72D2C82BA00DFFA4E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		76B3E1B92D2C82E800DFFA4E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		76B3E1BB2D2C8FF700DFFA4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		76B3E1BE2D2C9A1A00DFFA4E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		76B3E1C02D2C9A3E00DFFA4E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		76F0C59F2CDB1AE300697ECF /* Shcoota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shcoota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F0C5A22CDB1AE300697ECF /* ShcootaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShcootaApp.swift; sourceTree = "<group>"; };
-		76F0C5A42CDB1AE300697ECF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76F0C5A42CDB1AE300697ECF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		76F0C5A62CDB1AE500697ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F0C5A92CDB1AE500697ECF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76F0C5B02CDBA08000697ECF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		76F0C5B22CDBA0F500697ECF /* TLButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButtonView.swift; sourceTree = "<group>"; };
+		76F0C5B92CDBA3C300697ECF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		76F0C5BB2CDBA49A00697ECF /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		76F0C5BD2CDBA4A700697ECF /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		76F0C5BF2CDBA4FB00697ECF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +59,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F0C5B62CDBA2CF00697ECF /* FirebaseAuth in Frameworks */,
+				76B3E1C62D2CA33100DFFA4E /* FirebaseStorage in Frameworks */,
+				76F0C5B82CDBA2CF00697ECF /* FirebaseFirestore in Frameworks */,
+				76B3E1C42D2CA2CF00DFFA4E /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76B3E1AD2D2C804B00DFFA4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76B3E1AE2D2C805B00DFFA4E /* Users.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76B3E1B02D2C80C600DFFA4E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				76B3E1B12D2C80D300DFFA4E /* Extensions.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		76B3E1B52D2C826100DFFA4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76F0C5A42CDB1AE300697ECF /* MainView.swift */,
+				76F0C5B02CDBA08000697ECF /* LoginView.swift */,
+				76F0C5B22CDBA0F500697ECF /* TLButtonView.swift */,
+				76F0C5BB2CDBA49A00697ECF /* HeaderView.swift */,
+				76F0C5BD2CDBA4A700697ECF /* RegisterView.swift */,
+				76B3E1B72D2C82BA00DFFA4E /* MapView.swift */,
+				76B3E1BE2D2C9A1A00DFFA4E /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76B3E1B62D2C826900DFFA4E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				76F0C5BF2CDBA4FB00697ECF /* LoginViewModel.swift */,
+				76B3E1B32D2C81E700DFFA4E /* MainViewModel.swift */,
+				76B3E1AB2D2C800E00DFFA4E /* RegisterViewModel.swift */,
+				76B3E1B92D2C82E800DFFA4E /* LocationManager.swift */,
+				76B3E1C02D2C9A3E00DFFA4E /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		76B3E1C22D2CA2CF00DFFA4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76F0C5962CDB1AE300697ECF = {
 			isa = PBXGroup;
 			children = (
 				76F0C5A12CDB1AE300697ECF /* Shcoota */,
 				76F0C5A02CDB1AE300697ECF /* Products */,
+				76B3E1C22D2CA2CF00DFFA4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +138,13 @@
 		76F0C5A12CDB1AE300697ECF /* Shcoota */ = {
 			isa = PBXGroup;
 			children = (
+				76F0C5B92CDBA3C300697ECF /* GoogleService-Info.plist */,
+				76B3E1BB2D2C8FF700DFFA4E /* Info.plist */,
+				76B3E1B62D2C826900DFFA4E /* ViewModels */,
+				76B3E1B52D2C826100DFFA4E /* Views */,
+				76B3E1B02D2C80C600DFFA4E /* Other */,
+				76B3E1AD2D2C804B00DFFA4E /* Models */,
 				76F0C5A22CDB1AE300697ECF /* ShcootaApp.swift */,
-				76F0C5A42CDB1AE300697ECF /* ContentView.swift */,
 				76F0C5A62CDB1AE500697ECF /* Assets.xcassets */,
 				76F0C5A82CDB1AE500697ECF /* Preview Content */,
 			);
@@ -83,6 +175,12 @@
 			dependencies = (
 			);
 			name = Shcoota;
+			packageProductDependencies = (
+				76F0C5B52CDBA2CF00697ECF /* FirebaseAuth */,
+				76F0C5B72CDBA2CF00697ECF /* FirebaseFirestore */,
+				76B3E1C32D2CA2CF00DFFA4E /* FirebaseAnalytics */,
+				76B3E1C52D2CA33100DFFA4E /* FirebaseStorage */,
+			);
 			productName = Shcoota;
 			productReference = 76F0C59F2CDB1AE300697ECF /* Shcoota.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +209,9 @@
 				Base,
 			);
 			mainGroup = 76F0C5962CDB1AE300697ECF;
+			packageReferences = (
+				76F0C5B42CDBA2CF00697ECF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 76F0C5A02CDB1AE300697ECF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F0C5AA2CDB1AE500697ECF /* Preview Assets.xcassets in Resources */,
+				76F0C5BA2CDBA3C300697ECF /* GoogleService-Info.plist in Resources */,
 				76F0C5A72CDB1AE500697ECF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +239,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F0C5A52CDB1AE300697ECF /* ContentView.swift in Sources */,
+				76F0C5BC2CDBA49A00697ECF /* HeaderView.swift in Sources */,
+				76B3E1B82D2C82BA00DFFA4E /* MapView.swift in Sources */,
+				76B3E1AF2D2C805B00DFFA4E /* Users.swift in Sources */,
+				76F0C5B32CDBA0F500697ECF /* TLButtonView.swift in Sources */,
+				76F0C5B12CDBA08000697ECF /* LoginView.swift in Sources */,
+				76B3E1AC2D2C800E00DFFA4E /* RegisterViewModel.swift in Sources */,
+				76B3E1B22D2C80D400DFFA4E /* Extensions.swift in Sources */,
+				76F0C5BE2CDBA4A700697ECF /* RegisterView.swift in Sources */,
+				76F0C5A52CDB1AE300697ECF /* MainView.swift in Sources */,
+				76B3E1C12D2C9A3E00DFFA4E /* ProfileViewModel.swift in Sources */,
 				76F0C5A32CDB1AE300697ECF /* ShcootaApp.swift in Sources */,
+				76F0C5C02CDBA4FC00697ECF /* LoginViewModel.swift in Sources */,
+				76B3E1B42D2C81E800DFFA4E /* MainViewModel.swift in Sources */,
+				76B3E1BF2D2C9A1A00DFFA4E /* ProfileView.swift in Sources */,
+				76B3E1BA2D2C82E800DFFA4E /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +389,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Shcoota/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shcoota/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Schoota to find scooters near you ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +419,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Shcoota/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shcoota/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Schoota to find scooters near you ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +461,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76F0C5B42CDBA2CF00697ECF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76B3E1C32D2CA2CF00DFFA4E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F0C5B42CDBA2CF00697ECF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		76B3E1C52D2CA33100DFFA4E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F0C5B42CDBA2CF00697ECF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		76F0C5B52CDBA2CF00697ECF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F0C5B42CDBA2CF00697ECF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		76F0C5B72CDBA2CF00697ECF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76F0C5B42CDBA2CF00697ECF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 76F0C5972CDB1AE300697ECF /* Project object */;
 }
